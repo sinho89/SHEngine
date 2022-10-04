@@ -1,0 +1,24 @@
+# Visual Studio 2015 cache directory
+/.vs/
+
+# Output folder
+x64/
+x86/
+Debug/
+Debug-Static/
+Release/
+Release-Static/
+obj/
+packages/
+w32-pthreads/
+nogit/
+
+# Builds
+*.dat
+*.exe
+*.lib
+*.cso
+*.user
+*.exp
+
+!*.dll
