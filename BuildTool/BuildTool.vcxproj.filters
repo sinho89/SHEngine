@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{8935b465-5caf-4d6a-9cb3-0a953525a02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task">
+      <UniqueIdentifier>{37968c2b-a372-449a-87a5-b5f1fdf77565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task\vcpkg">
+      <UniqueIdentifier>{33bfe0ec-ca05-4c36-85b2-c7be76578263}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Misc\Headers.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\Defines.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\Enums.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\Functions.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\Misc.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\Structs.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Task\vcpkg\VcpkgTask.h">
+      <Filter>Task\vcpkg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BuildTool.cpp" />
+    <ClCompile Include="Task\vcpkg\VcpkgTask.cpp">
+      <Filter>Task\vcpkg</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
