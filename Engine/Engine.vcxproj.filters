@@ -1,2 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{f5de8c3a-1547-4c10-9dd3-bfecc804b780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{87a49e21-7876-47be-8fec-ebff254fb6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{0b99fba5-92b5-47d6-97c5-8fa146581c6a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

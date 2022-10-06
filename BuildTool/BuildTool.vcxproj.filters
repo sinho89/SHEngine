@@ -7,8 +7,11 @@
     <Filter Include="Task">
       <UniqueIdentifier>{37968c2b-a372-449a-87a5-b5f1fdf77565}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Task\vcpkg">
+    <Filter Include="Task\Vcpkg">
       <UniqueIdentifier>{33bfe0ec-ca05-4c36-85b2-c7be76578263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task\GenProps">
+      <UniqueIdentifier>{e030772a-d2e1-4c99-8d79-dbb31277abf1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -31,13 +34,28 @@
       <Filter>Misc</Filter>
     </ClInclude>
     <ClInclude Include="Task\vcpkg\VcpkgTask.h">
-      <Filter>Task\vcpkg</Filter>
+      <Filter>Task\Vcpkg</Filter>
+    </ClInclude>
+    <ClInclude Include="Task\GenProps\DPSGenTask.h">
+      <Filter>Task\GenProps</Filter>
+    </ClInclude>
+    <ClInclude Include="Task\GenProps\EPSGenTask.h">
+      <Filter>Task\GenProps</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BuildTool.cpp" />
     <ClCompile Include="Task\vcpkg\VcpkgTask.cpp">
-      <Filter>Task\vcpkg</Filter>
+      <Filter>Task\Vcpkg</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\GenProps\DPSGenTask.cpp">
+      <Filter>Task\GenProps</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\GenProps\EPSGenTask.cpp">
+      <Filter>Task\GenProps</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc\Misc.cpp">
+      <Filter>Misc</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

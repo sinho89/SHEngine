@@ -1,0 +1,12 @@
+<Project>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions>USE_IMGUI_MODULE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>"D:\WORKSPACE\SHEngine\Engine\";"D:\WORKSPACE\SHEngine\Engine\Graphics\ThirdParty\imgui";"D:\WORKSPACE\SHEngine\Engine\Graphics\ThirdParty\FBXLoader";"D:\WORKSPACE\SHEngine\Engine\Graphics\Encode\ThirdParty\ffmpeg\include";"D:\WORKSPACE\SHEngine\Engine\Framework\ThirdParty\AWS\include";%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <DelayLoadDLLs></DelayLoadDLLs>
+      <AdditionalLibraryDirectories>"D:\WORKSPACE\SHEngine\Engine\";"D:\WORKSPACE\SHEngine\Engine\Framework\ThirdParty\AWS\lib";%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+</Project>

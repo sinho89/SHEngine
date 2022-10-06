@@ -1,0 +1,4 @@
+<Project>
+  <Import Project = "D:\WORKSPACE\SHEngine\Engine\EngineBuildSetting.props" Condition="exists('D:\WORKSPACE\SHEngine\Engine\EngineBuildSetting.props')"/>
+  <Import Project = "D:\WORKSPACE\SHEngine\BuildTool\ToolBuildSetting.props"/>
+</Project>

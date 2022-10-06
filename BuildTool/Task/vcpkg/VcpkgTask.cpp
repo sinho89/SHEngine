@@ -5,7 +5,7 @@ void FVcpkgTask::Task()
 	system("..\\ThirdParty\\vcpkg\\bootstrap-vcpkg.bat");
 	system("xcopy \"..\\ThirdParty\\triplets\" \"..\\ThirdParty\\vcpkg\\triplets\" /y /s");
 	const std::string InstallCmd = "..\\ThirdParty\\vcpkg\\vcpkg.exe install ";
-	const std::string Pkg = "DirectXTK DirectXTex magic-enum rapidjson "; // Add Pkg here
+	const std::string Pkg = "DirectXTK DirectXTex magic-enum rapidjson ";
 	const std::string Triplet_x64MD = " --triplet x64-windows --recurse";
 	const std::string Triplet_x86MD = " --triplet x86-windows --recurse";
 	const std::string Triplet_x64MT = " --triplet x64-windows-static --recurse";

@@ -25,10 +25,15 @@
     <ClInclude Include="Misc\Headers.h" />
     <ClInclude Include="Misc\Misc.h" />
     <ClInclude Include="Misc\Structs.h" />
+    <ClInclude Include="Task\GenProps\DPSGenTask.h" />
+    <ClInclude Include="Task\GenProps\EPSGenTask.h" />
     <ClInclude Include="Task\vcpkg\VcpkgTask.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BuildTool.cpp" />
+    <ClCompile Include="Misc\Misc.cpp" />
+    <ClCompile Include="Task\GenProps\DPSGenTask.cpp" />
+    <ClCompile Include="Task\GenProps\EPSGenTask.cpp" />
     <ClCompile Include="Task\vcpkg\VcpkgTask.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -72,19 +77,19 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="BuildPropertySheet.props" />
+    <Import Project="ToolBuildSetting.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="BuildPropertySheet.props" />
+    <Import Project="ToolBuildSetting.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="BuildPropertySheet.props" />
+    <Import Project="ToolBuildSetting.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="BuildPropertySheet.props" />
+    <Import Project="ToolBuildSetting.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
